@@ -9,4 +9,4 @@ keywords = ["cosmology", "Stephon Alexander","music and science"]
 description = "the bond between improvisation and physics, or how to use jazz to explain physics"
 showFullContent = false
 +++
-![jazz](/Coltrane.jpg)
+![jazz](/blog/Coltrane.jpg)

@@ -16,7 +16,7 @@ To fix it, either you put the button where you push (ie the gate) or you put a t
 
 Although I can’t find good affordance in my everyday life except for doors to push or pull according to their design, there is one affordance that has raised the question of design since day one in my life: 
 
-![N64](/static/N64.jpg)
+![N64](/blog/N64.jpg)
 
 
 This wonderful piece of technology which design was made for 3100’s kids who will have 3 hands because of GMO and nuclear disasters was in my hands when I was 2 years old as my older brother had it for christmas. It started my love for video games but I remember how I couldn’t play without him because I couldn’t reach the good buttons, as I wasn’t putting my hands in the good place.
@@ -36,17 +36,17 @@ You would definitely close this popup about time left by pressing the big green 
 a) Instagram’s use of the heart instead of the world notification of facebook is a dark design pattern to me, because the company is totally aware of the importance of this kind of social network for self esteem. The old world notification meant you were connecting to the world in a brand new way whereas the use of a heart whenever someone follows you explicitly means you get love from your peers. Therefore, if you’re a low self-esteemed teenager you’ll definitely chase those hearts which, at the end of the day, don’t mean much about your true worth as a person. It somehow shifts the way we consider our worth as people.
 The opposite would be to change it back to the world thumbnail obviously or to go further in this direction, to put a mouse or finger thumbnail to show that the person that liked isn’t really that much into you nor your content as it was just a 1 sec click. I think we would be less apprehensive of whether we do or do not have new notifications.
 
-![instafb](blog/fbinsta.jpg)
+![instafb](/blog/fbinsta.jpg)
 
 b) Confirmshaming is a manipulation that’s very old but is increasingly used because the advertising world has to follow the fierce online competition, therefore they’ll use everything in their power (I sometimes wonder whether it’s 100% legal) to attract you, including trying to shame you for not doing what they want by phrasing your negative answer in a very specific way.
 Famous TV show south park tackles it with (as always) lot of humour and criticism:
 https://youtu.be/3KT9IUd_Cnc but it can’t get as good as this in real life so here are some true examples:
 
-![confirmshaming1](blog/confirm1.jpg)
+![confirmshaming1](/blog/confirm1.jpg)
 
 At first sight, this one seems harmless and logical but if you dive a bit into what it truly means, it is definitely shaming you by assuming you have no will to provide for your kids and family if you don’t give your email address. It’s not that far from Randy’s misadventure at the (rich and politically correct) Mall actually...
 
-![confirmshaming2](blog/confirm2.jpg)
+![confirmshaming2](/blog/confirm2.jpg)
 This one is closely related but they try a more direct approach that almost sounds like humor, it is more based on basic logic than some insidious psychological questioning about yourself like the previous one.
 
 The opposite would be quite funny: instead of shaming the user, the company would be 100% honest and fair and explain how they lose money if you don’t put your email address or create an account by showing you data on how a customer is more likely to buy again if they manage to link you to their advertising network, so much so that the 20% means nothing to them.

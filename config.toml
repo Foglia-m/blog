@@ -18,7 +18,7 @@ publishDir = "docs"
   showLanguageSelector = false
 
   # set theme to full screen width
-  fullWidthTheme = false
+  fullWidthTheme = true
 
   # center theme with default width
   centerTheme = false
@@ -28,6 +28,7 @@ publishDir = "docs"
 
   # set post to show the last updated
   # If you use git, you can set `enableGitInfo` to `true` and then post will automatically get the last updated
+  enableGitInfo = true
   showLastUpdated = false
   # Provide a string as a prefix for the last update date. By default, it looks like this: 2020-xx-xx [Updated: 2020-xx-xx] :: Author
   # updatedDatePrefix = "Updated"

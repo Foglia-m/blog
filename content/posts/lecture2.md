@@ -23,13 +23,13 @@ I think the idea to tackle the issue with pseudo haptics (an illusory perception
 The paper revolves around finding the perception of weight through the control to display  (C/D) ratio seeking the most accurate C/D ratio which was made possible by transferring the weight perception to a true physical work estimation problem. Then they experimented on the problem to extract a predictive model of weight perception.
 The first experiment’s goal was to leverage the user’s sensation of weight for two identical cubes but with different C/D ratios in the simulation. The participants concluded that the cube with the C/D ratio inferior to 1 was heavier, whereas the C/D>1 ratio cube felt lighter. 
 
-![CDratio](/CDratio.jpg)	
+![CDratio](/blog/CDratio.jpg)	
 
 This graph shows how the C/D ratio was changed and the offset of movement that was accordingly applied to the cube. (a.u. stands for arbitrary units).
 
 Then they ask participants to adjust the weight of a cube according to their perception, as they created a model of the relation between C/D ratio and perceived mass.
 
-![CDratio2](/CDratioandoffset.jpg)
+![CDratio2](/blog/CDratioandoffset.jpg)
 
 Their data fits the model quite well.
 
@@ -59,7 +59,7 @@ For instance, the depletion of the force modelized in VR to a real world interac
 
 
 Another point he makes is the ability for computers to display mathematics law that we can’t grasp in reality as they go beyond our perception of the world (mostly for dimensions reasons) To follow his idea of computer being the window of fundamental physics and maths for human beings, we can think of programs that could display non euclidian worlds as it could serve research. But wait it does exist: https://www.youtube.com/watch?v=P6sB00nkoeM&ab_channel=Creslex there’s a non euclidian minecraft mod that I must look into in order to analyse it. This type of displays could be a great tool for education and in a broader way, enable our capacity to think outside the box and beyond our common senses.
-![noneuclidian](/noneuclidian.jpg)	
+![noneuclidian](/blog/noneuclidian.jpg)	
 
 Finally, the true ultimate display is one that interferes in the real world as it controls the matter in the room, such display has never been released as of today and we can’t possibly think of it in the near future. Although the elementary bricks are quite present with the combination of VR and 3D printers we could imagine a room where the user can create and interact with matter such as a real life minecraft version but how dangerous would that be? 
 
