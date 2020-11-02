@@ -1,9 +1,10 @@
----
-title: "Lab1: setting up the blog with hugo and github"
-date: 2020-11-02T16:32:38+01:00
-draft: false
-description: the goal here is to describe how I managed to set up the blog by following tutorials
----
++++
+title = 'Lab 1: Setting up the blog with hugo and github'
+date = 2020-11-02T16:32:38+01:00
+draft = false
+description = "the goal here is to describe how I managed to set up the blog by following tutorials"
+showFullContent = false
++++
 
 Building your local blog using hugo:
 
@@ -22,5 +23,3 @@ Fix:
 
 Unity setup:
 It's so easy and user friendly at the beginning that you wonder how you never used it as a kid when you start, playing around with the pre-coded fps was a lot of fun and start to modify its code was also easy to do and a good "first grasp" learning approach. 
-
-

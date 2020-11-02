@@ -1,9 +1,10 @@
----
-title: "Lab2: roll-a-ball: or the best tutorial you've ever seen"
-date: 2020-11-02T16:32:42+01:00
-draft: false
-description: Unity somehow managed to make the harsh world of game development a joyful and rewarding experience
----
++++
+title = "Lab2= roll-a-ball= or the best tutorial you've ever seen"
+date = 2020-11-02T16:32:42+01:00
+draft = false
+description = "Unity somehow managed to make the harsh world of game development a joyful and rewarding experience"
+showFullContent = false
++++
 
 The Unity community is known to be  new user friendly and its tutorials are the quintessence of this idea as they explain slowly but surely what you can figure out by yourself but instead of building it in a messy way, you follow logical and methodical steps. 
 Generally, I'm not into following tutorials as I prefer to keep the reasoning on my side only so I propose a 2 step approach that definitely looks like what my granny used to do to teach us (her grand children) to ride bikes. She would show the way going first and let us mimic her way of doing so in order to learn. But of course my brother and I were more about racing so we'd not follow her advises so the solution she came up with was my grandpa driving what she called a "broom car", if we could not go further exhausted by our racing pace we would end up getting grandpa's advices comfortably seating in the "broom-car".
@@ -28,5 +29,4 @@ The Death and portal share the same script (although I built two different in or
 They use trigger collider and are linked to a platform that gives its position in order to spawn the ball back in the game.
 
 gameplay: 
-{{< youtubeIDzou4Z75Nc >}}
-
+{{< youtube IDzou4Z75Nc >}}

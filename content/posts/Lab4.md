@@ -1,9 +1,10 @@
----
-title: "Lab4: VR another step towards complexity"
-date: 2020-11-02T16:32:48+01:00
-draft: false
-description: VR development is way more complex because of the particularity of inputs and cameras, but following tutorials can, as always, help you to get it done quite fast, the question that remains is: did you get any of that? (yes the exact same question you get at the end of a Rick & Morty episode...)
----
++++
+title = "Lab4: VR another step towards complexity"
+date = 2020-11-02T16:32:48+01:00
+draft = false
+description = "VR development is way more complex because of the particularity of inputs and cameras, but following tutorials can, as always, help you to get it done quite fast, the question that remains is the following did you get any of that? (yes the exact same question you get at the end of a Rick & Morty episode...)"
+showFullContent = false
++++
 
 I managed to make things work as this footage shows:
 
@@ -24,7 +25,3 @@ Grabbing Offset Issue: As we see in the gameplay footage, there is a snap offset
 https://forum.unity.com/threadsvr-oculus-sdk-touch-controller-snap-position-snap-offset-grab-a-gun.512853/
 
 I tried to fix it by following this thread but the result was not there and I couldn't access the lab anymore but I think the solution is there.
-
-
-
-
