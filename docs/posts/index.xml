@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Terminal</title>
+    <link>https://foglia-m.github.io/blog/posts/</link>
+    <description>Recent content in Posts on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Sep 2020 16:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="https://foglia-m.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Week: Cognitive Basics in the HCI field</title>
+      <link>https://foglia-m.github.io/blog/posts/my-first-post/</link>
+      <pubDate>Thu, 17 Sep 2020 16:47:08 +0200</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/my-first-post/</guid>
+      <description>1/Affordances
+Affordances are a crazy example of how we behave as humans and how we get used to stuff whether they are well or poorly designed, these are two bad affordances that were the first discover of poor design in my life.
+Bad Button: Having to press the button that unlocks a gate and open it at the same time when the button is not on the door is one of the most rageful and disturbing bad affordances I’ve seen in my life, especially when I carry heavy stuff.</description>
+    </item>
+    
+    <item>
+      <title>Golf Ball Automated Sorting and Automation project</title>
+      <link>https://foglia-m.github.io/blog/posts/wbsports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/wbsports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>History of HCI, Input Devices and User Interfaces</title>
+      <link>https://foglia-m.github.io/blog/posts/lecture2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/lecture2/</guid>
+      <description>google scholar link: https://scholar.google.com/citations?user=BXCGQXwAAAAJ&amp;amp;hl=en A great researcher in HCI is HRVOJE BENKO, his work revolves around haptics, VR and AR, projection room interaction and input devices. He is the current director of research in Facebook Reality labs Research. He is very active in many fields of VR and HCI as he publishes regularly over the years. The paper I want to present is about weight perception in VR using pseudo haptics techniques to simulate weight for the user: http://www.</description>
+    </item>
+    
+    <item>
+      <title>Jazz of Physics: How are Coltrane and Einstein related?</title>
+      <link>https://foglia-m.github.io/blog/posts/jazz-of-physics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/jazz-of-physics/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

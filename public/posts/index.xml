@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Terminal</title>
+    <link>/posts/</link>
+    <description>Recent content in Posts on Terminal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Sep 2020 16:47:08 +0200</lastBuildDate>
+    
+	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Week: Cognitive Basics in the HCI field</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Thu, 17 Sep 2020 16:47:08 +0200</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description>1/Affordances
+Having to press the button that unlocks a gate and open it at the same time when the button is not on the door is one of the most rageful and disturbing bad affordances I’ve seen in my life, especially when I carry heavy stuff. Forcing the simultaneity when the button is not on the object you push is really a bad affordance and I’ve failed to naturally get out of a friend’s house numerous times because I can’t quite grasp that logic.</description>
+    </item>
+    
+  </channel>
+</rss>
