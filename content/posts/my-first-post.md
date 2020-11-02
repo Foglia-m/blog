@@ -17,6 +17,7 @@ To fix it, either you put the button where you push (ie the gate) or you put a t
 Although I can’t find good affordance in my everyday life except for doors to push or pull according to their design, there is one affordance that has raised the question of design since day one in my life: 
 
 ![N64](/blog/N64.jpg)
+![N64](/N64.jpg)
 
 
 This wonderful piece of technology which design was made for 3100’s kids who will have 3 hands because of GMO and nuclear disasters was in my hands when I was 2 years old as my older brother had it for christmas. It started my love for video games but I remember how I couldn’t play without him because I couldn’t reach the good buttons, as I wasn’t putting my hands in the good place.
