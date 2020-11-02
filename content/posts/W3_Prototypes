@@ -1,7 +1,7 @@
 ---
 title: "W3_Prototypes"
 date: 2020-11-02T12:04:57+01:00
-draft: true
+draft: false
 ---
 
 Ideate: Create and sketch and present at least three ideas )
@@ -31,6 +31,10 @@ It’s a good probe for how the idea could be seen in a final product implementa
 The voting aspect wasn’t really accurate as the messenger thing was ignored and people preferred to write it down so it turns out the social aspect must be direct (although ladders can be on a server and displayed locally). 
 Theses are the pieces I could save because people took them home (or destroyed them) after a while.
 
+![oeuvres](/blog/oeuvres.jpg)
+
+![oeuvre](/blog/oeuvre.jpg)
+
 
 Use the Prototype for Evaluation : Ask at least one person (other than you) to interact with your prototype. Observe and discuss with this person what their opinion is towards your concept and interaction. Critically reflect ! 
 
@@ -51,7 +55,8 @@ The hype was built by people seeing others using it because the workshop in itse
 Feedback: 
 People like it but the only true feedback I had was from my roommate Anas who actually won the contest.
 
-//insert pic
+![NAS](/blog/nas.jpg)
+
 
 Him and I discussed the protototype’s value according to his experience.
 His main negative feedback was the huge difference between using clay on a table and playing around in a VR environment so we talked about taking the prototype further by using a unity asset he bought last year: https://www.youtube.com/watch?v=X-LhxwIEimw&feature=emb_logo
