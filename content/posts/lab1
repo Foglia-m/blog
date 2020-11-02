@@ -1,0 +1,10 @@
+---
+title: "Lab1: setting up the blog with hugo and github"
+date: 2020-11-02T16:32:38+01:00
+draft: true
+description: the goal here is to describe how I managed to set up the blog by following tutorials
+---
+
+I hosted it on GitHub following this tutorial: https://gohugo.io/hosting-and-deployment/hosting-on-github/
+but encountered issues with pictures because the paths wouldn't respect what I wrote in my code:
+It turned /blog/N64.jpg into /N64.jpg
