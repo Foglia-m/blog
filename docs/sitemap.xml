@@ -3,17 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://foglia-m.github.io/blog/posts/my-first-post/</loc>
-    <lastmod>2020-09-17T16:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://foglia-m.github.io/blog/posts/</loc>
-    <lastmod>2020-09-17T16:47:08+02:00</lastmod>
+    <loc>https://foglia-m.github.io/blog/posts/lab4/</loc>
+    <lastmod>2020-11-02T16:32:48+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://foglia-m.github.io/blog/</loc>
+    <lastmod>2020-11-02T16:32:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foglia-m.github.io/blog/posts/</loc>
+    <lastmod>2020-11-02T16:32:48+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foglia-m.github.io/blog/posts/lab3/</loc>
+    <lastmod>2020-11-02T16:32:45+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foglia-m.github.io/blog/posts/lab2/</loc>
+    <lastmod>2020-11-02T16:32:42+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foglia-m.github.io/blog/posts/lab1/</loc>
+    <lastmod>2020-11-02T16:32:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foglia-m.github.io/blog/posts/w4_postwimp/</loc>
+    <lastmod>2020-11-02T16:08:15+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foglia-m.github.io/blog/posts/w3_prototypes/</loc>
+    <lastmod>2020-11-02T12:04:57+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://foglia-m.github.io/blog/posts/my-first-post/</loc>
     <lastmod>2020-09-17T16:47:08+02:00</lastmod>
   </url>
   

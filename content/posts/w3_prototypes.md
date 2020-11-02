@@ -53,7 +53,7 @@ The hype was built by people seeing others using it because the workshop in itse
 
 
 Feedback: 
-People like it but the only true feedback I had was from my roommate Anas who actually won the contest.
+People liked it but the only true feedback I had was from my roommate Anas who actually won the contest.
 
 ![NAS](/blog/nas.jpg)
 

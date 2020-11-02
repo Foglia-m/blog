@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Lab2: roll-a-ball, or the best tutorial you&#39;ve ever seen :: Milan&#39;s Blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="The Unity community is known to be new user friendly and its tutorials are the quintessence of this idea as they explain slowly but surely what you can figure out by yourself but instead of building it in a messy way, you follow logical and methodical steps. Generally, I&amp;rsquo;m not into following tutorials as I prefer to keep the reasoning on my side only so I propose a 2 step approach that definitely looks like what my granny used to do to teach us (her grand children) to ride bikes." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://foglia-m.github.io/blog/posts/lab2/" />
+
+
+
+
+<link rel="stylesheet" href="https://foglia-m.github.io/blog/assets/style.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://foglia-m.github.io/blog/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="https://foglia-m.github.io/blog/img/favicon/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Lab2: roll-a-ball, or the best tutorial you&#39;ve ever seen :: Milan&#39;s Blog">
+<meta property="og:description" content="Unity somehow managed to make the harsh world of game development a joyful and rewarding experience" />
+<meta property="og:url" content="https://foglia-m.github.io/blog/posts/lab2/" />
+<meta property="og:site_name" content="Lab2: roll-a-ball, or the best tutorial you&#39;ve ever seen" />
+
+  
+    <meta property="og:image" content="https://foglia-m.github.io/blog/img/favicon/orange.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2020-11-02 16:32:42 &#43;0100 CET" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container full headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/blog">
+  <div class="logo">
+     Computer Vision, HCI and other cool topics
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://foglia-m.github.io/blog/posts/lab2/">Lab2: roll-a-ball, or the best tutorial you&rsquo;ve ever seen</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2020-11-02 
+      </span>
+    
+    
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <p>The Unity community is known to be  new user friendly and its tutorials are the quintessence of this idea as they explain slowly but surely what you can figure out by yourself but instead of building it in a messy way, you follow logical and methodical steps.
+Generally, I&rsquo;m not into following tutorials as I prefer to keep the reasoning on my side only so I propose a 2 step approach that definitely looks like what my granny used to do to teach us (her grand children) to ride bikes. She would show the way going first and let us mimic her way of doing so in order to learn. But of course my brother and I were more about racing so we&rsquo;d not follow her advises so the solution she came up with was my grandpa driving what she called a &ldquo;broom car&rdquo;, if we could not go further exhausted by our racing pace we would end up getting grandpa&rsquo;s advices comfortably seating in the &ldquo;broom-car&rdquo;.
+This slow unity tutorial pace is definitely a &ldquo;broom-car&rdquo; that won&rsquo;t fit the bold racer dev type but can definitely help you up if you&rsquo;re stuck on something obvious that you could not get by yourself. Their design is made this way: very clear milestones so that you know exactly what is done within and can keep going your way and eventually merge your work with how they do it.</p>
+<p>About my work, I followed the tutorial and implemented the same basic version of the game.
+As a portal fan I want to add portals to it but I&rsquo;m not sure they&rsquo;ll be completed at time when I upload this blog.
+I also want to implement a techno mode where the music and the visual effects make the game look like a huge party =&gt; this would be perfect as a VR implementation ( subcounscious Tetris Effect inspiration all the way here).
+Another great inspiration in my life is Zelda&rsquo;s game design so I want to add a triggered wind effect to the game.</p>
+<p>I have not encountered any issues making the basic game.</p>
+<p>Here is the gampeplay of the game so far, in order to add the bounciness that gives the game some more energy, I added a physic material with te following settings:
+dynamic friction: 0.1
+static friction: 0.2
+Bounciness: 1
+Friction combine : multiply (multiplies both frictions between the ball and the other material)
+Bounciness combine : maximum =&gt; few energy loss so that the ball bounces all the time with 1 (no matter what other material it bounces on)</p>
+<p>The Death and portal share the same script (although I built two different in order to link the portals in the future)
+They use trigger collider and are linked to a platform that gives its position in order to spawn the ball back in the game.</p>
+<p>gameplay:
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/IDzou4Z75Nc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="https://foglia-m.github.io/blog/posts/lab3/">
+                <span class="button__icon">←</span>
+                <span class="button__text">Lab3: android implementation</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="https://foglia-m.github.io/blog/posts/lab1/">
+                <span class="button__text">Lab 1: Setting up the blog with hugo and github</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2020 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="https://foglia-m.github.io/blog/assets/main.js"></script>
+<script src="https://foglia-m.github.io/blog/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

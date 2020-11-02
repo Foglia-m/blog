@@ -1,5 +1,5 @@
 +++
-title = "Lab2= roll-a-ball= or the best tutorial you've ever seen"
+title = "Lab2: roll-a-ball, or the best tutorial you've ever seen"
 date = 2020-11-02T16:32:42+01:00
 draft = false
 description = "Unity somehow managed to make the harsh world of game development a joyful and rewarding experience"

@@ -13,3 +13,4 @@ The user's input part is somehow more complex and I got error I couldn't really 
 Therefore my game could run but I had no Input and didn't manage to understand why.
 
 This is a screenshot of my game:
+![phone](/blog/phone.jpg)

@@ -1,15 +1,77 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Terminal</title>
+    <title>Posts on Milan&#39;s Blog</title>
     <link>https://foglia-m.github.io/blog/posts/</link>
-    <description>Recent content in Posts on Terminal</description>
+    <description>Recent content in Posts on Milan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 17 Sep 2020 16:47:08 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2020 16:32:48 +0100</lastBuildDate>
     
 	<atom:link href="https://foglia-m.github.io/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lab4: VR another step towards complexity</title>
+      <link>https://foglia-m.github.io/blog/posts/lab4/</link>
+      <pubDate>Mon, 02 Nov 2020 16:32:48 +0100</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/lab4/</guid>
+      <description>I managed to make things work as this footage shows:
+  Unfortunately, I had few access to the VR lab because of the COVID so I could not fix some issues: mainly the offset of the object when you grab it in VR.
+But the main issue with this is that I followed the guidelines with interest but couldn&amp;rsquo;t come up with any critical vision on what I was doing because I had so few experience in what I was doing, it was the first I coded anything in VR but it felt way more magical than everything I had done on Unity before, the main reason is that you import many packages because building everything from scratch must be a nightmare.</description>
+    </item>
+    
+    <item>
+      <title>Lab3: android implementation</title>
+      <link>https://foglia-m.github.io/blog/posts/lab3/</link>
+      <pubDate>Mon, 02 Nov 2020 16:32:45 +0100</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/lab3/</guid>
+      <description>Implementing an android version was surprisingly easy in terms of Unity build as it&amp;rsquo;s cross platform philosophy is definitely a great asset for developpers. Therfore, I followed the lab explanation and could run the game on my android phone (I had already coded android apps so it was even more intuitive to me) but as a novice, you have documentation to help you, as a developer, you&amp;rsquo;re never alone.
+The user&amp;rsquo;s input part is somehow more complex and I got error I couldn&amp;rsquo;t really deal with: my accelerometer wasn&amp;rsquo;t giving any values and the ground transform value couldn&amp;rsquo;t be modified as my script had non definition for transform which was supposed to be the ground transform.</description>
+    </item>
+    
+    <item>
+      <title>Lab2: roll-a-ball, or the best tutorial you&#39;ve ever seen</title>
+      <link>https://foglia-m.github.io/blog/posts/lab2/</link>
+      <pubDate>Mon, 02 Nov 2020 16:32:42 +0100</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/lab2/</guid>
+      <description>The Unity community is known to be new user friendly and its tutorials are the quintessence of this idea as they explain slowly but surely what you can figure out by yourself but instead of building it in a messy way, you follow logical and methodical steps. Generally, I&amp;rsquo;m not into following tutorials as I prefer to keep the reasoning on my side only so I propose a 2 step approach that definitely looks like what my granny used to do to teach us (her grand children) to ride bikes.</description>
+    </item>
+    
+    <item>
+      <title>Lab 1: Setting up the blog with hugo and github</title>
+      <link>https://foglia-m.github.io/blog/posts/lab1/</link>
+      <pubDate>Mon, 02 Nov 2020 16:32:38 +0100</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/lab1/</guid>
+      <description>Building your local blog using hugo:
+Hugo is really easy to handle (at least the basics) and makes the development of a blog so easy. I started working in local in order to see how things worked ( posts, config, image and so on) It was all very smooth in local as I never encountered issues following the geting started tutorial from the hugo website https://gohugo.io/getting-started/ I&amp;rsquo;d advise using a WSL (windows Sub Linux) with linux to work on it but this is general to any command line based project.</description>
+    </item>
+    
+    <item>
+      <title>W4_POSTWIMP</title>
+      <link>https://foglia-m.github.io/blog/posts/w4_postwimp/</link>
+      <pubDate>Mon, 02 Nov 2020 16:08:15 +0100</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/w4_postwimp/</guid>
+      <description>The shape of smartphones
+Smartphones&amp;rsquo; shapes were supposed to be small at the beginning because it would fit the ubiquitous idea of having them close to us (in our pockets) everytime so that we don’t even realize they’re here, using them becomes like breathing, a natural process that only yogis put emphasis on as most of us forget about the fact we’re breathing (btw realizing you are can be helpful in stressful situations).</description>
+    </item>
+    
+    <item>
+      <title>W3_Prototypes</title>
+      <link>https://foglia-m.github.io/blog/posts/w3_prototypes/</link>
+      <pubDate>Mon, 02 Nov 2020 12:04:57 +0100</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/w3_prototypes/</guid>
+      <description>Ideate: Create and sketch and present at least three ideas )
+1.Augmented reality to assist soldiers when aiming / PROTOYPE= VR FPS WITH low-effect AIMBOT (half life halyx?) ONWARD VR?
+ AR for drivers to enhance speed capacity and information treatment of our brain (maximise information and anticipate) / Prototype: VR car game with full 4D experience and an extended HUD for perfect track etc.
+  Modyfing reality by transposing a VR Sculpture to a 3D AR model that can be seen by anyone passing by.</description>
+    </item>
     
     <item>
       <title>First Week: Cognitive Basics in the HCI field</title>
