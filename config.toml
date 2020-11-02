@@ -47,7 +47,7 @@ publishDir = "docs"
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Milan's Blog"
     subtitle = "A simple, retro theme for Hugo"
     owner = ""
     keywords = ""
@@ -59,15 +59,15 @@ publishDir = "docs"
     missingBackButtonLabel = "Back to home page"
 
     [languages.en.params.logo]
-      logoText = " Computer Vision, HCI and other incredible topics"
-      logoHomeLink = "/"
+      logoText = " Computer Vision, HCI and other cool topics"
+      logoHomeLink = "/blog"
 
     [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+     # [[languages.en.menu.main]]
+     #  identifier = "about"
+     #  name = "About"
+     #  url = "/about"
+     #[[languages.en.menu.main]]
+     #  identifier = "showcase"
+     #  name = "Showcase"
+     #  url = "/showcase"
