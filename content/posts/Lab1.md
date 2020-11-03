@@ -17,9 +17,8 @@ The troubles started when I had to go online:
 I hosted it on GitHub following this tutorial: https://gohugo.io/hosting-and-deployment/hosting-on-github/ and everything was smooth if you're not a git noob, frankly I only know the basics(which are fast to learn but hard to master) and it was easy to do.
 Unfortunately, I encountered issues with pictures because the paths wouldn't respect what I wrote in my code:
 It turned /blog/N64.jpg into /N64.jpg for example and therefore the resource could not load.
-
-Fix:
-
+I debugged for a while using F12 (chrome inspection) and I could retrieve the picture by changing the src value, so it was a matter of path established by the code. (chrome inspector is a quick way to debug many things in web development even though it looks crafty it's helpful in order ton understand what's going on!)
+Fix: the issue acutally came from the fact that my root was / instead of /blog so you shouldn't panic if images don't display if you haven't finished to build the main index (in Hugo, it's centralized in the config.toml)
 
 Unity setup:
 It's so easy and user friendly at the beginning that you wonder how you never used it as a kid when you start, playing around with the pre-coded fps was a lot of fun and start to modify its code was also easy to do and a good "first grasp" learning approach. 
