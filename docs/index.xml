@@ -85,6 +85,16 @@ Bad Button: Having to press the button that unlocks a gate and open it at the sa
     </item>
     
     <item>
+      <title>Blender or best UI I&#39;ve seen for 3D modelization</title>
+      <link>https://foglia-m.github.io/blog/posts/blender/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/blender/</guid>
+      <description>I had to create a character, create a rig (It&amp;rsquo;s a very long process, I&amp;rsquo;d advise using premade rigs for humanoids) and animate it.
+In order to get comfortable with Blender&amp;rsquo;s UI (mostly its shortkeys and multiple windows) and 3d modelling in general, I created a Koons dog first. It was quite fast to do and the result are not that bad so I&amp;rsquo;m sure more time spent on it can make it quite descent for a video game or 3D use.</description>
+    </item>
+    
+    <item>
       <title>Golf Ball Automated Sorting and Automation project</title>
       <link>https://foglia-m.github.io/blog/posts/wbsports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -109,6 +119,15 @@ Bad Button: Having to press the button that unlocks a gate and open it at the sa
       
       <guid>https://foglia-m.github.io/blog/posts/jazz-of-physics/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Unity3D plateformer, playing around with some basic mechanics</title>
+      <link>https://foglia-m.github.io/blog/posts/plateformer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/plateformer/</guid>
+      <description>Gameplay:   Tried to add some football gameplay in it but I was too short on time to deliver a true experience, moreover, these basic capsule colliders are awful for this kind of application but were mandatory for the exercice, I&amp;rsquo;ll try to use custom colliders (not mesh though) in the future that suit the player leg&amp;rsquo;s animation to have something better. I eventually tried adjusting the bounciness combine (make it multiply/ maximum instead of average) of the ball and it was somehow more realitic and fun bun the normal vector of the capsule collider is juste too random to work correctly with a huge bouncing effect.</description>
     </item>
     
   </channel>

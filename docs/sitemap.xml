@@ -48,6 +48,10 @@
   </url>
   
   <url>
+    <loc>https://foglia-m.github.io/blog/posts/blender/</loc>
+  </url>
+  
+  <url>
     <loc>https://foglia-m.github.io/blog/categories/</loc>
   </url>
   
@@ -65,6 +69,10 @@
   
   <url>
     <loc>https://foglia-m.github.io/blog/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://foglia-m.github.io/blog/posts/plateformer/</loc>
   </url>
   
 </urlset>
