@@ -16,7 +16,7 @@ To fix it, either you put the button where you push (ie the gate) or you put a t
 
 Although I can’t find good affordance in my everyday life except for doors to push or pull according to their design, there is one affordance that has raised the question of design since day one in my life: 
 
-![N64](blog/N64.jpg)
+![N64](/blog/N64.jpg)
 
 
 This wonderful piece of technology which design was made for 3100’s kids who will have 3 hands because of GMO and nuclear disasters was in my hands when I was 2 years old as my older brother had it for christmas. It started my love for video games but I remember how I couldn’t play without him because I couldn’t reach the good buttons, as I wasn’t putting my hands in the good place.
@@ -27,7 +27,7 @@ As opposed to this alien artefact, new Xbox controllers are well designed and mu
 
 To be honest I thought it over and over again and at the end I couldn’t find such applications, I thought it was because I couldn’t understand the laws well, but then I stumbled upon this pearl: https://userinyerface.com/ by Bagaar, and it made everything so clear, every single aspect of gestalt laws are represented here. You should experiment it yourself to understand how. To put it simply, it exploits every single shortcut our design-experienced brains can possibly use while filling forms, which is based on gestalt laws so every shortcut we take by filing missing info (here the info is actually there but extremely bad design makes us disrupt it and fill it according to gestalt laws . So I thought it was definitely on point.
 
-![gestaltlaw](blog/gestalt.jpg)
+![gestaltlaw](/blog/gestalt.jpg)
 
 You would definitely close this popup about time left by pressing the big green button because both the color and the placement are shortcuts for your brain in order not to read. But here you’ll have to take a closer look in order to keep filling your form…. Good luck with that...
 

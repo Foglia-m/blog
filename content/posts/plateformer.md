@@ -1,6 +1,6 @@
 +++
 title = "Unity3D plateformer, playing around with some basic mechanics"
-date = ""
+draft = false
 author = "Milan"
 description = "Goal here is to create a 3D plateformer, animate it, give it some personnal flavor (home made music for instance)"
 showFullContent = false

@@ -1,7 +1,7 @@
 +++
 title = "Blender or best UI I've seen for 3D modelization"
 description = "Although I like Unity a lot, Blender is incredibly made and the UI is the best I've ever seen, very intuitive and I'm sure professionals are going crazy fast with this tool."
-showFullContent = false
+draft = false
 +++
 I had to create a character, create a rig (It's a very long process, I'd advise using premade rigs for humanoids) and animate it.
 
