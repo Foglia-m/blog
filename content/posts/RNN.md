@@ -43,7 +43,7 @@ RNNs always have some kind of magical aspect because of the data generation, whe
 The idea that mostly intrigues me is to beat a player only using learned strategy and also spontaneous tactics instead of using a huge amount of APM (action per minute) which makes it a boring fast-computer asset.
 We know that the best pro gamers have a mean of more than 400 APM. Here we can see what APM are the current best AI using, we can see that it’s quite fitting the standards pro gaming APM. 
 
-![meanapm](/blog/meanapm.jpg)
+![meanapm](/blog/meanapm.png)
 
 
 

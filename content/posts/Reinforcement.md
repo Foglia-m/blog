@@ -55,7 +55,7 @@ Score is also moving up and down as the epochs pass but less randomly than the l
 
 First result with width 128 and q-learning
 
-![firstagent](/blog/first_agent.jpg)
+![firstagent](/blog/first_agent.png)
 
 
 We can see that some episodes gave much reward and therefore increased the the score in a significant way
@@ -126,7 +126,9 @@ Iteration 5400 	| floss : 0.01787	| Score: 43.179	| eps: 0.1
 Iteration 5500 	| floss : 0.01717	| Score: 43.355	| eps: 0.1
 Iteration 5600 	| floss : 0.01813	| Score: 43.14
 
-![final](/blog/finalrun.png)
+![final](/blog/finalrun.png) 
+
+see the ipynb file for better quality of the graph
 
 
 
