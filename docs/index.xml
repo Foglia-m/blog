@@ -95,12 +95,22 @@ In order to get comfortable with Blender&amp;rsquo;s UI (mostly its shortkeys an
     </item>
     
     <item>
+      <title>Generalities on Recurrent Neural Networks and image captioning application</title>
+      <link>https://foglia-m.github.io/blog/posts/rnn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/rnn/</guid>
+      <description>The main goal of RNN is to deal with sequential data as it can easily handle long-term dependencies and order. Vanilla RNNs use backpropagation but suffer from vanishing gradients by multiplying over and over by a same factor:
+Therefore, we use LSTM to manage the vanishing gradient issue by changing the cell architecture. RNN are widely used for text,image generation, and text translation but also image captioning which is what interests us in this lab .</description>
+    </item>
+    
+    <item>
       <title>Golf Ball Automated Sorting and Automation project</title>
       <link>https://foglia-m.github.io/blog/posts/wbsports/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://foglia-m.github.io/blog/posts/wbsports/</guid>
-      <description></description>
+      <description>Needs:</description>
     </item>
     
     <item>
@@ -119,6 +129,15 @@ In order to get comfortable with Blender&amp;rsquo;s UI (mostly its shortkeys an
       
       <guid>https://foglia-m.github.io/blog/posts/jazz-of-physics/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Reinforcement learning</title>
+      <link>https://foglia-m.github.io/blog/posts/reinforcement/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://foglia-m.github.io/blog/posts/reinforcement/</guid>
+      <description>This lab is an Implementation of the cart pole problem which is a Markov decision problem. The cart moves to prevent the standing pole from falling. Let’s describe the STAR of this problem: State: (coord of cart, speed of cart, angular coord of pole, angular velocity of pole) Transition: mvt of cart and pole. Action: moving the cart left or right. Reward: virtual cône of validity (+1 when it stays 0 when it falls out)</description>
     </item>
     
     <item>
