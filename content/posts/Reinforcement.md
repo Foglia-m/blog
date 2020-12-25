@@ -1,7 +1,6 @@
 +++
 title = "Reinforcement learning"
 date = ""
-
 cover = ""
 tags = ["", ""]
 keywords = ["", ""]
