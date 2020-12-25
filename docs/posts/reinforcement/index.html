@@ -144,7 +144,7 @@ We use SARSA or Q learning in order to define the target for the model at every 
 Dataset changes over time so the loss is always changing,
 Score is also moving up and down as the epochs pass but less randomly than the loss, we can display it as results.</p>
 <p>First result with width 128 and q-learning</p>
-<p><img src="/blog/first_agent.jpg" alt="firstagent"></p>
+<p><img src="/blog/first_agent.png" alt="firstagent"></p>
 <p>We can see that some episodes gave much reward and therefore increased the the score in a significant way</p>
 <p>Changing the capacity of our network:
 width (128 ⇒ 256)
@@ -185,6 +185,7 @@ Iteration 5400 	| floss : 0.01787	| Score: 43.179	| eps: 0.1
 Iteration 5500 	| floss : 0.01717	| Score: 43.355	| eps: 0.1
 Iteration 5600 	| floss : 0.01813	| Score: 43.14</p>
 <p><img src="/blog/finalrun.png" alt="final"></p>
+<p>see the ipynb file for better quality of the graph</p>
 <p>This last loop gave quite interesting results as it could show the 50 wall and I had a long run episode to analyse (see the display of the transition cell on the ipynb). In this episode, we can explain the influence of the gamma value: we see that the Q values are all below 1 so the agent has few reasons to take one decision or the other and the difference between both is very small, it can be explained by the birthdate of the transition: 99 as the gamma value diminishes the importance of old transitions as we saw previously.</p>
 <p>We can conclude that reinforcement learning is somehow easy to understand in a general way but the implementation and hyperparameters tuning are still quite complex (the influence of gamma over the target value and how it influences training was hard to get at the beginning but displaying an interesting episode such as the last one was helpful.)</p>
 
@@ -200,9 +201,9 @@ Iteration 5600 	| floss : 0.01813	| Score: 43.14</p>
     <div class="pagination__buttons">
         
         <span class="button previous">
-            <a href="https://foglia-m.github.io/blog/posts/jazz-of-physics/">
+            <a href="https://foglia-m.github.io/blog/posts/advancedcv/">
                 <span class="button__icon">←</span>
-                <span class="button__text">Jazz of Physics: How are Coltrane and Einstein related?</span>
+                <span class="button__text">Human 3D Pose Reconstruction</span>
             </a>
         </span>
         

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Human 3D Pose Reconstruction :: Milan&#39;s Blog</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Github link for the functions: https://github.com/Foglia-m/AdvancedCV
+In this lab, the goal was to implement multi-view reconstruction of the movement using a calibrated system: the joints are already defined with deepnet openpose and must be displayed, frame by frame on each camera image. Therefore, the idea is to understand the theoretical link between multi-view cameras (rotation and translation matrices) in order to project points from each view into the desired 2D image." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="https://foglia-m.github.io/blog/posts/advancedcv/" />
+
+
+
+
+<link rel="stylesheet" href="https://foglia-m.github.io/blog/assets/style.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://foglia-m.github.io/blog/img/apple-touch-icon-144-precomposed.png">
+
+  <link rel="shortcut icon" href="https://foglia-m.github.io/blog/img/favicon/orange.png">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+  
+    <meta name="twitter:site" content="" />
+  
+    <meta name="twitter:creator" content="" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Human 3D Pose Reconstruction :: Milan&#39;s Blog">
+<meta property="og:description" content="This lab is about reconstructing joints and displaying them on a video working with different camera angles and therefore transformation matrix and camera intrinsic parameters" />
+<meta property="og:url" content="https://foglia-m.github.io/blog/posts/advancedcv/" />
+<meta property="og:site_name" content="Human 3D Pose Reconstruction" />
+
+  
+    <meta property="og:image" content="https://foglia-m.github.io/blog/img/favicon/orange.png">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="orange">
+
+
+<div class="container full headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/blog">
+  <div class="logo">
+     Computer Vision, HCI and other cool topics
+  </div>
+</a>
+
+    </div>
+    <div class="menu-trigger">menu</div>
+  </div>
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="https://foglia-m.github.io/blog/posts/advancedcv/">Human 3D Pose Reconstruction</a></h1>
+  <div class="post-meta">
+    
+    
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <p>Github link for the functions: <a href="https://github.com/Foglia-m/AdvancedCV">https://github.com/Foglia-m/AdvancedCV</a></p>
+<p>In this lab, the goal was to implement multi-view reconstruction of the movement using a calibrated system: the joints are already defined with deepnet openpose and must be displayed, frame by frame on each camera image.
+Therefore, the idea is to understand the theoretical link between multi-view cameras (rotation and translation matrices) in order to project points from each view into the desired 2D image.</p>
+<ol>
+<li>Displaying joints on each frame according to the 2DTXT file.</li>
+</ol>
+<p>This is the most trivial process as it only treats the relation between 2D images.
+I coded drawkeypoints.py in order to realise the following:
+-createframesfrom2Dfile: Take a 2D file as input and extract it into a frames array so that we can display each frame on the corresponding video in the drawing function
+-drawing: takes a videopath and the extracted frames (from createframesfrom2Dfile), uses opencv dedicated functions to draw the junctions on every frame of the video and save it.</p>
+<p>This is an example of the basic output of this function using Lea/squat_1_0.0.avi as the videopath and squat_1_0.0.txt as the 2D file.
+We can see on this frame that the joint rendering is good:</p>
+<p><img src="/blog/LEA1.jpg" alt="Lea1"></p>
+<ol start="2">
+<li>Same goal using the 3DTXT file of an activity and project the 3D reference of the 0 camera into the others.
+The tricky part here is to understand the relation between the 3d points of one camera and the 2d points of another camera. We can draw the following pipeline to understand the relation:</li>
+</ol>
+<p>a. 3D_coords_cam_0  ⇒ 3D_coords_cam_i  (unhomogenous)
+using Transform matrix T(3x4) or (4x4 in homogeneous coord) coming from the pose_0_i.xml file as the transform matrix.
+This matrix contains both rotation and translation so it defines the exact origin shift between both cameras and can therefore be applied to each joint of a frame.</p>
+<p>b. 3D_coords_cam_i ⇒  2D_coords_cam_i
+using the intrinsic parameters of the camera from the out_camera_data_i.xml file.
+They define the projection from a 3D space to the 2D space of the camera image, therefore, we can retrieve the final coordinates of our joints on the corresponding video.</p>
+<p>Code wise, I implemented two functions in a python file called Pose_ProjectFrom3D.PY
+This file has the following functions:
+-Create_frames_list taking the video3D.txt file as input in order to return the 3D_coords_cam_0 objects (the coordinates of the joints according to the 0 camera).
+-Projection_to_cam_i takes as input the frames from the last function and a i index, this index defines the camera we want to treat. We extract the camera pose data in order to compute the 3D_coords_cam_i (a) and then we extract the camera intrinsic data in order to project the 3D new coords in the 2D space. Then we use the drawkeypoints.py method to display the corresponding joints.</p>
+<p>Remark: Here I was stuck because I did not understand why my outputs were bad when I drew on the video, here’s a gif of my output. (the gif does not represent the true number of points as it was locked by framerate, it looks like there is only one point here whereas there were actually plenty of them.<br>
+<img src="/blog/unstablepoints.gif" alt="unstable"></p>
+<p>Still, I used the demo.py in order to continue and it worked:</p>
+<p><img src="/blog/khoa1.jpg" alt="khoa1"></p>
+<p>We can see the points correctly follow the joints of the person.</p>
+<p>For the triangulation, we can use the demo2.py file,
+we also get good results for the points at each frame:</p>
+<p><img src="/blog/LEA2.jpg" alt="Lea2"></p>
+<p>Conclusion: Unfortunately, I was stuck with unstable results with the 3D to 2D part so I could not advance further in the lab. Still I spent a lot of time understanding the different transforms between camera viewpoints (with/without homogeneity of the coordinates) so I managed to work on many things. An interesting subject to me is the calibration of cameras, I would do it using arucos which have interesting geometrical properties and great robustness to angles:</p>
+<p><img src="/blog/arucos.png" alt="arucos"></p>
+
+      </div></div>
+
+  
+  
+<div class="pagination">
+    <div class="pagination__title">
+        <span class="pagination__title-h">Read other posts</span>
+        <hr />
+    </div>
+    <div class="pagination__buttons">
+        
+        <span class="button previous">
+            <a href="https://foglia-m.github.io/blog/posts/lecture2/">
+                <span class="button__icon">←</span>
+                <span class="button__text">History of HCI, Input Devices and User Interfaces</span>
+            </a>
+        </span>
+        
+        
+        <span class="button next">
+            <a href="https://foglia-m.github.io/blog/posts/reinforcement/">
+                <span class="button__text">Reinforcement learning</span>
+                <span class="button__icon">→</span>
+            </a>
+        </span>
+        
+    </div>
+</div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2020 Powered by <a href="http://gohugo.io">Hugo</a></span>
+    
+        <span>:: Theme made by <a href="https://twitter.com/panr">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+<script src="https://foglia-m.github.io/blog/assets/main.js"></script>
+<script src="https://foglia-m.github.io/blog/assets/prism.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

@@ -123,12 +123,13 @@ Therefore, we use LSTM to manage the vanishing gradient issue by changing the ce
     </item>
     
     <item>
-      <title>Jazz of Physics: How are Coltrane and Einstein related?</title>
-      <link>https://foglia-m.github.io/blog/posts/jazz-of-physics/</link>
+      <title>Human 3D Pose Reconstruction</title>
+      <link>https://foglia-m.github.io/blog/posts/advancedcv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://foglia-m.github.io/blog/posts/jazz-of-physics/</guid>
-      <description></description>
+      <guid>https://foglia-m.github.io/blog/posts/advancedcv/</guid>
+      <description>Github link for the functions: https://github.com/Foglia-m/AdvancedCV
+In this lab, the goal was to implement multi-view reconstruction of the movement using a calibrated system: the joints are already defined with deepnet openpose and must be displayed, frame by frame on each camera image. Therefore, the idea is to understand the theoretical link between multi-view cameras (rotation and translation matrices) in order to project points from each view into the desired 2D image.</description>
     </item>
     
     <item>
