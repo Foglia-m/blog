@@ -1,11 +1,7 @@
 +++
 title = "Human 3D Pose Reconstruction"
-date = ""
-author = ""
-authorTwitter = "" #do not include @
-cover = ""
-tags = ["", ""]
-keywords = ["", ""]
+date = "2020-12-02T16:32:38+01:00"
+
 description = "This lab is about reconstructing joints and displaying them on a video working with different camera angles and therefore transformation matrix and camera intrinsic parameters"
 showFullContent = false
 +++
